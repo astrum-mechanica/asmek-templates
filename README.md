@@ -20,10 +20,10 @@ create a symlink between the repo and the auth folders
 
 ```bash
 cd templates
-ln -s ~/myauth/myauth/lawn-templates/templates/* .
+ln -s ~/myauth/myauth/asmek-templates/templates/* .
 cd ..
 cd static
-ln -s ~/aa-dev/lawn-templates/static/* .
+ln -s ~/myauth/myauth/asmek-templates/static/* .
 ```
 
 Run collectstatic
