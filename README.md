@@ -2,7 +2,7 @@
 
 > **Warning:**
 >
-> These template overrides are specially tailored for the alliance Get Off My Lawn [LAWN].
+> These template overrides are specially tailored for the corp Astrum Mechanica [ASMEK].
 > They override templates of apps we use, to adjust the look or add/augment functionality.
 >
 > Templates may depend on the existence of certain apps, both public and private, in order to function properly.
@@ -13,7 +13,7 @@
 You should be in your venv, in `~/myauth/myauth` or in the folder containing the static and templates folders.
 
 ```bash
-git clone https://gitlab.com/lawn-alliance/lawn-templates.git
+git clone https://github.com/astrum-mechanica/asmek-templates.git
 ```
 
 create a symlink between the repo and the auth folders
@@ -25,6 +25,16 @@ cd ..
 cd static
 ln -s ~/aa-dev/lawn-templates/static/* .
 ```
+
+Run collectstatic
+
+## updating
+
+```bash
+git pull
+```
+
+run collectstatic
 
 ## Compatibility
 
