@@ -1,6 +1,6 @@
 # ASMEK template overrides
 
-> **Warning:**
+> [!WARNING]
 >
 > These template overrides are specially tailored for the corp Astrum Mechanica [ASMEK].
 > They override templates of apps we use, to adjust the look or add/augment functionality.
