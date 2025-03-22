@@ -1,10 +1,10 @@
 {% extends 'fittings/base.html' %}
 {% load i18n %}
+{% load humanize %}
 {% load filters %}
 {% load static %}
 {% load evelinks %}
 {% load fittings_skill_tree %}
-
 
 {% block page_title %}{{ fitting.name }} {% translate "Fit" %}{% endblock %}
 
@@ -136,8 +136,8 @@
                         {% endif %}
                     {% endif %}
                 </div>
-                
             </div>
+            {% character_skill_overview %}
         </div>
 
         <div class="col-md-9">
